@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+header{
+  background-color: #0d325a;
+  height: 300px;
+}
+
+.header-nav{
+  height: 80px;
+  background-color: green;
+}
+
+.jumbotron{
+ height: 450px;
+ background-color: orange;
+}
