@@ -14,16 +14,45 @@ body{
 }
 
 header{
+  height: 500px;
   background-color: #0d325a;
-  height: 300px;
+  background-image: url('../img/background-header.png');
+  background-size: 60%;
+  background-position: 110% 110%;
+  background-repeat: no-repeat;
 }
 
 .header-nav{
   height: 80px;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .jumbotron{
- height: 450px;
- background-color: orange;
+ /* height: 450px;
+ background-color: orange; */
+}
+
+main{
+  /* background-color: grey; */
+}
+
+.corso{
+  /* height: 100px;
+  background-color: red; */
+}
+
+.corso .container{
+  background-color: lightgrey;
+  width: 100%;
+}
+
+.corso .container h2{
+  text-align: center;
+  padding: 10px;
+}
+
+.corso .container p{
+  text-align: center;
+  color: grey;
+  padding: 10px;
 }
