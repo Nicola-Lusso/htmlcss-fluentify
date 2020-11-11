@@ -24,6 +24,16 @@ body{
   float: left;
 }
 
+
+.btn {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.btn-green{
+  background-color: rgb(68, 209, 55);
+}
+
 header {
   height: 500px;
   background-color: #0d325a;
@@ -33,20 +43,64 @@ header {
   background-repeat: no-repeat;
 }
 
+header li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
 .header-nav{
   height: 80px;
-  background-color: green;
 }
 
 .header-logo{
-  width: 20%;
-  height: 100%;
-  background-color: red;
+  width: 15%;
 }
 
+.header-nav-center{
+  width: 55%;
+  height: 100%;
+}
+
+.header-nav-right{
+  width: 25%;
+}
+
+
+.header-logo img{
+ margin-top: 15px;
+}
+
+.header-nav li{
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+
+
 .jumbotron{
- /* height: 450px;
- background-color: orange; */
+height: 470px;
+position: relative;
+}
+
+.jumbotron-text{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+.jumbotron-text h1{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.jumbotron-text a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
 }
 
 main{
