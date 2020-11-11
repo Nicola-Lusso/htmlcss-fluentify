@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+
 }
 
 .container{
@@ -13,7 +14,17 @@ body{
   margin: auto;
 }
 
-header{
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+header {
   height: 500px;
   background-color: #0d325a;
   background-image: url('../img/background-header.png');
@@ -24,7 +35,13 @@ header{
 
 .header-nav{
   height: 80px;
-  /* background-color: green; */
+  background-color: green;
+}
+
+.header-logo{
+  width: 20%;
+  height: 100%;
+  background-color: red;
 }
 
 .jumbotron{
@@ -33,7 +50,9 @@ header{
 }
 
 main{
-  /* background-color: grey; */
+  height: 600px;
+  width: 100%;
+  background-color: pink;
 }
 
 .corso{
